@@ -1,2 +1,10 @@
-package PACKAGE_NAME;public class Test {
+public class Test {
+    String testString;
+
+    @Override
+    public String toString() {
+        return "Test{" +
+                "testString='" + testString + '\'' +
+                '}';
+    }
 }

@@ -4,6 +4,10 @@
   <groupId>org.example</groupId>
   <artifactId>teest</artifactId>
   <packaging>war</packaging>
+  <properties>
+    <maven.compiler.source>19</maven.compiler.source>
+    <maven.compiler.target>19</maven.compiler.target>
+  </properties>
   <version>1.0-SNAPSHOT</version>
   <name>teest Maven Webapp</name>
   <url>http://maven.apache.org</url>
@@ -17,5 +21,15 @@
   </dependencies>
   <build>
     <finalName>teest</finalName>
+    <plugins>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-compiler-plugin</artifactId>
+        <configuration>
+          <source>15</source>
+          <target>15</target>
+        </configuration>
+      </plugin>
+    </plugins>
   </build>
 </project>
