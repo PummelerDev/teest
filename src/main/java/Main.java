@@ -10,6 +10,9 @@ public class Main {
         String s2 = """
                 return
                 """;
+        String s3 = """
+                continue
+                """;
 
 
     }
