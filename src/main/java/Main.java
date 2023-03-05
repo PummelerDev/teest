@@ -10,5 +10,9 @@ public class Main {
         String ss = """
                 some changes
                 """;
+        String ss2 = """
+                some changes2 + new branch
+                """;
+
     }
 }
