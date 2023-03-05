@@ -7,5 +7,10 @@ public class Main {
         String s = """
                 new branch
                 """;
+        String s2 = """
+                return
+                """;
+
+
     }
 }
