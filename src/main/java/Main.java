@@ -7,5 +7,8 @@ public class Main {
         String s = """
                 new branch
                 """;
+        String ss = """
+                some changes
+                """;
     }
 }
