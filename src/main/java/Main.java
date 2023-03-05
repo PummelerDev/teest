@@ -14,7 +14,7 @@ public class Main {
                 continue
                 """;
         String s4 = """
-                from continue
+                continue 2
                 """;
 
 
