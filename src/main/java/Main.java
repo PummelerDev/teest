@@ -13,6 +13,9 @@ public class Main {
         String s3 = """
                 continue
                 """;
+        String s4 = """
+                continue 2
+                """;
 
 
     }
